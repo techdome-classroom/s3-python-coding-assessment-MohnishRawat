@@ -23,6 +23,11 @@ class Solution(object):
 
         return len(stack) == 0
 
-obj=Solution()
-s=input()
-result= obj.isValid()
+
+obj = Solution()
+s = input()
+result = obj.isValid(s)
+if result:
+    print("True")
+else:
+    print("False")
