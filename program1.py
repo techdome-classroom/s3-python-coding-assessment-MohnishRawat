@@ -12,5 +12,6 @@ class Solution(object):
             elif ch in ')}]':
                 if not stack:
                     return False
-                 
+
+                top = stack.pop()
         pass
