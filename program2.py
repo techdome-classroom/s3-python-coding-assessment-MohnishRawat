@@ -8,4 +8,5 @@ class Solution(object):
         total=0
         i=0
         while(i<len(s)):
-            if(i+1<len(s) and roman[s[i]]<roman[s[i+1]]
+            if(i+1<len(s) and roman[s[i]]<roman[s[i+1]]):
+                
