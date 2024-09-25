@@ -8,4 +8,4 @@ class Solution(object):
         total=0
         i=0
         while(i<len(s)):
-            
+            if
