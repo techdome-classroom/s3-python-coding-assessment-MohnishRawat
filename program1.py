@@ -24,3 +24,4 @@ class Solution(object):
         return len(stack) == 0
 
 obj=Solution()
+s=
