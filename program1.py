@@ -6,19 +6,5 @@ class Solution(object):
         """
         stack = []
         mapping = {")": "(", "}": "{", "]": "["}
-        
+
         pass
-
-
-
-
-
-
-
-
-    
-
-
-
-  
-
