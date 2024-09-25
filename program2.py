@@ -12,4 +12,4 @@ class Solution(object):
                 total+=roman[s[i+1]]-roman[s[i]]
                 i+=2
             else:
-                
+                total
