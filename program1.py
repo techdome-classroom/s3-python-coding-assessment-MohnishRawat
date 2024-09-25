@@ -25,4 +25,4 @@ class Solution(object):
 
 obj=Solution()
 s=input()
-result= isValid()
+result= obj.isValid()
