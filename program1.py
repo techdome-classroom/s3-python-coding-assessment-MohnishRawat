@@ -5,17 +5,21 @@ class Solution(object):
         :rtype: bool
         """
         stack = []
-        
+
         for ch in s:
-            if ch in '({[':
+            if ch in "({[":
                 stack.append(ch)
-            elif ch in ')}]':
+            elif ch in ")}]":
                 if not stack:
                     return False
 
                 top = stack.pop()
-                if (top=='(' and ch!=')') or (top=='{' and ch!='}') or (top=='[' and ch!=']'):
+                if (
+                    (top == "(" and ch != ")")
+                    or (top == "{" and ch != "}")
+                    or (top == "[" and ch != "]")
+                ):
                     return False
-        
-        return 
+
+        return len(stack) == 0
         pass
