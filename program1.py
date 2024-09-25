@@ -14,5 +14,6 @@ class Solution(object):
                     return False
 
                 top = stack.pop()
-                if (top=='(' and ch!=')') or (top)
+                if (top=='(' and ch!=')') or (top=='{' and ch!='}') or (top=='[' and ch!=']'):
+                    return False
         pass
