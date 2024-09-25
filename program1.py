@@ -23,6 +23,6 @@ class Solution(object):
                 if (top == "[" and ch != "]"):
                     return False
                 
-                    return False
+                    
 
         return len(stack) == 0
