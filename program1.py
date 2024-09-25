@@ -17,5 +17,5 @@ class Solution(object):
                 if (top=='(' and ch!=')') or (top=='{' and ch!='}') or (top=='[' and ch!=']'):
                     return False
         
-        
+        return 
         pass
