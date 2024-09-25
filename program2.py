@@ -9,4 +9,4 @@ class Solution(object):
         i=0
         while(i<len(s)):
             if(i+1<len(s) and roman[s[i]]<roman[s[i+1]]):
-                total+=roman[]
+                total+=roman[s[i]]
