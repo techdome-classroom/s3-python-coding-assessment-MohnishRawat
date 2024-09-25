@@ -14,15 +14,13 @@ class Solution(object):
                     return False
 
                 top = stack.pop()
-                if top == "(" and ch != ")" :
+                if top == "(" and ch != ")":
                     return False
-            
-                if (top == "{" and ch != "}"):
-                    return False
-                
-                if (top == "[" and ch != "]"):
-                    return False
-                
-                    
 
-        return len(stack) == 0
+                if top == "{" and ch != "}":
+                    return False
+
+                if top == "[" and ch != "]":
+                    return False
+
+        return not stack
