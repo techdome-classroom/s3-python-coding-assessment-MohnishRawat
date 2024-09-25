@@ -11,3 +11,5 @@ class Solution(object):
             if(i+1<len(s) and roman[s[i]]<roman[s[i+1]]):
                 total+=roman[s[i+1]]-roman[s[i]]
                 i+=2
+            else:
+                
