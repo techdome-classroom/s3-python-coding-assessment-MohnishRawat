@@ -4,4 +4,4 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        roman={'I':1,'V':5,'X':}
+        roman={'I':1,'V':5,'X':10,''}
