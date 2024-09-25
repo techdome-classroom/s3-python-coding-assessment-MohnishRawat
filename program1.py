@@ -8,5 +8,9 @@ class Solution(object):
         mapping = {")": "(", "}": "{", "]": "["}
         for ch in s:
             if ch in '({[':
-                
+                stack.append(ch)
+            elif ch in ')}]':
+                if not stack:
+                    return False
+                 
         pass
