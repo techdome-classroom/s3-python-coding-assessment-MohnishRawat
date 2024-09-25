@@ -14,4 +14,5 @@ class Solution(object):
                     return False
 
                 top = stack.pop()
+                
         pass
