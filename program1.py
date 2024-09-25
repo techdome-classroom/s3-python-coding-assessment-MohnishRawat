@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: bool
         """
         stack = []
-        mapping = {")": "(", "}": "{", "]": "["}
+        
         for ch in s:
             if ch in '({[':
                 stack.append(ch)
