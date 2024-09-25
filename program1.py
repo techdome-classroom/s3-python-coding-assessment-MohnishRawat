@@ -22,12 +22,3 @@ class Solution(object):
                     return False
 
         return len(stack) == 0
-
-
-obj = Solution()
-s = input()
-result = obj.isValid(s)
-if result:
-    print("True")
-else:
-    print("False")
