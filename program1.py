@@ -6,5 +6,7 @@ class Solution(object):
         """
         stack = []
         mapping = {")": "(", "}": "{", "]": "["}
-        for 
+        for ch in s:
+            if ch in '({[':
+                
         pass
